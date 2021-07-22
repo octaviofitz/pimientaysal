@@ -7,6 +7,6 @@ const {detail} = require('../controllers/mainController')
 
 /* GET home page. */
 router.get('/',index)
-router.get('/detail', detail)
+router.get('/detalle/:id', detail);
 
 module.exports = router;

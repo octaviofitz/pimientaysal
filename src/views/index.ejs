@@ -49,7 +49,7 @@
           <br />
 
           <% platos.forEach(plato => { %>
-            <h4><%= plato.title %> </h4>
+            <h4><a href="/detalle/<%= plato.id %>"><%= plato.title %></a></h4>
             <p class="ps-text-grey">
              <%= plato.description %> U$S <%= plato.price %> 
             </p>
